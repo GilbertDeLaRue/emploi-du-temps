@@ -1,0 +1,1129 @@
+[
+	{
+		"id": "0",
+		"alleventweeks": "NYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
+		"title": "05/09/2022",
+		"date": "Semaine 36, Semaine commençant le 05/09/2022",
+		"days": [
+			{
+				"id": "0",
+				"name": "lundi",
+				"date": 5,
+				"event": []
+			},
+			{
+				"id": "1",
+				"name": "mardi",
+				"date": 6,
+				"event": [
+					{
+						"attributes": {
+							"id": "221566",
+							"timesort": "09301030",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Anglais technique",
+							"staff": "Cukalla Eva",
+							"room": "414"
+						},
+						"starttime": "09:30",
+						"endtime": "10:30",
+						"prettytimes": "09:30-10:30 "
+					},
+					{
+						"attributes": {
+							"id": "221083",
+							"timesort": "10301200",
+							"color": "FFBFBF"
+						},
+						"content": {
+							"group": "INF1",
+							"module": "Initiation au dev.",
+							"staff": "Auger David",
+							"room": "Amphi  A"
+						},
+						"starttime": "10:30",
+						"endtime": "12:00",
+						"prettytimes": "10:30-12:00 "
+					},
+					{
+						"attributes": {
+							"id": "221087",
+							"timesort": "14001600",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Economie",
+							"staff": "Barreau Sébastien",
+							"room": "414"
+						},
+						"starttime": "14:00",
+						"endtime": "16:00",
+						"prettytimes": "14:00-16:00 "
+					},
+					{
+						"attributes": {
+							"id": "221104",
+							"timesort": "16001800",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Bases de la comm.",
+							"staff": "Chenus Marie-Agnès",
+							"room": "314"
+						},
+						"starttime": "16:00",
+						"endtime": "18:00",
+						"prettytimes": "16:00-18:00 "
+					}
+				]
+			},
+			{
+				"id": "2",
+				"name": "mercredi",
+				"date": 7,
+				"event": [
+					{
+						"attributes": {
+							"id": "221595",
+							"timesort": "13001500",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Intro. systèmes",
+							"staff": "Gérard Jean-Jacques",
+							"room": "I21"
+						},
+						"starttime": "13:00",
+						"endtime": "15:00",
+						"prettytimes": "13:00-15:00 "
+					},
+					{
+						"attributes": {
+							"id": "221747",
+							"timesort": "15001700",
+							"color": "BF7FFF"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Initiation au dev.",
+							"room": "I21"
+						},
+						"starttime": "15:00",
+						"endtime": "17:00",
+						"prettytimes": "15:00-17:00 "
+					}
+				]
+			},
+			{
+				"id": "3",
+				"name": "jeudi",
+				"date": 8,
+				"event": [
+					{
+						"attributes": {
+							"id": "221071",
+							"timesort": "08301000",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Maths discrètes",
+							"staff": "Martel Yves",
+							"room": "313"
+						},
+						"starttime": "08:30",
+						"endtime": "10:00",
+						"prettytimes": "08:30-10:00 "
+					},
+					{
+						"attributes": {
+							"id": "221088",
+							"timesort": "10001200",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Economie",
+							"staff": "Barreau Sébastien",
+							"room": "313"
+						},
+						"starttime": "10:00",
+						"endtime": "12:00",
+						"prettytimes": "10:00-12:00 "
+					},
+					{
+						"attributes": {
+							"id": "221072",
+							"timesort": "13001600",
+							"color": "BF7FFF"
+						},
+						"content": {
+							"group": "INF1-C",
+							"room": "313"
+						},
+						"starttime": "13:00",
+						"endtime": "16:00",
+						"prettytimes": "13:00-16:00 "
+					}
+				]
+			},
+			{
+				"id": "4",
+				"name": "vendredi",
+				"date": 9,
+				"event": [
+					{
+						"attributes": {
+							"id": "221073",
+							"timesort": "08301000",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Maths discrètes",
+							"staff": "Martel Yves",
+							"room": "313"
+						},
+						"starttime": "08:30",
+						"endtime": "10:00",
+						"prettytimes": "08:30-10:00 "
+					},
+					{
+						"attributes": {
+							"id": "221118",
+							"timesort": "10001300",
+							"color": "BF7FFF"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Initiation au dev.",
+							"room": "I21"
+						},
+						"starttime": "10:00",
+						"endtime": "13:00",
+						"prettytimes": "10:00-13:00 "
+					},
+					{
+						"attributes": {
+							"id": "222261",
+							"timesort": "14001445",
+							"color": "FFBFBF"
+						},
+						"content": {
+							"module": "Dev. interfaces web",
+							"staff": "Hoguin Fabrice",
+							"room": "Amphi B"
+						},
+						"starttime": "14:00",
+						"endtime": "14:45",
+						"prettytimes": "14:00-14:45 "
+					},
+					{
+						"attributes": {
+							"id": "222264",
+							"timesort": "14451600",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Dev. interfaces web",
+							"staff": "Robba Isabelle",
+							"room": "I21"
+						},
+						"starttime": "14:45",
+						"endtime": "16:00",
+						"prettytimes": "14:45-16:00 "
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "1",
+		"alleventweeks": "NNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
+		"title": "12/09/2022",
+		"date": "Semaine 37, Semaine commençant le 12/09/2022",
+		"days": [
+			{
+				"id": "0",
+				"name": "lundi",
+				"date": 12,
+				"event": [
+					{
+						"attributes": {
+							"id": "221046",
+							"timesort": "12001300",
+							"color": "FFBFBF"
+						},
+						"content": {
+							"group": "INF1",
+							"module": "Intro. BD",
+							"staff": "Loyer Yann",
+							"room": "Amphi  A"
+						},
+						"starttime": "12:00",
+						"endtime": "13:00",
+						"prettytimes": "12:00-13:00 "
+					},
+					{
+						"attributes": {
+							"id": "221134",
+							"timesort": "14001500",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Intro. BD",
+							"staff": "Loyer Yann",
+							"room": "512"
+						},
+						"starttime": "14:00",
+						"endtime": "15:00",
+						"prettytimes": "14:00-15:00 "
+					},
+					{
+						"attributes": {
+							"id": "221133",
+							"timesort": "15151715",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Intro. BD",
+							"staff": "Loyer Yann",
+							"room": "G25"
+						},
+						"starttime": "15:15",
+						"endtime": "17:15",
+						"prettytimes": "15:15-17:15 "
+					}
+				]
+			},
+			{
+				"id": "1",
+				"name": "mardi",
+				"date": 13,
+				"event": [
+					{
+						"attributes": {
+							"id": "221567",
+							"timesort": "09301030",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Anglais technique",
+							"staff": "Cukalla Eva",
+							"room": "316"
+						},
+						"starttime": "09:30",
+						"endtime": "10:30",
+						"prettytimes": "09:30-10:30 "
+					},
+					{
+						"attributes": {
+							"id": "221083",
+							"timesort": "10301200",
+							"color": "FFBFBF"
+						},
+						"content": {
+							"group": "INF1",
+							"module": "Initiation au dev.",
+							"staff": "Auger David",
+							"room": "Amphi  A"
+						},
+						"starttime": "10:30",
+						"endtime": "12:00",
+						"prettytimes": "10:30-12:00 "
+					},
+					{
+						"attributes": {
+							"id": "221087",
+							"timesort": "14001600",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Economie",
+							"staff": "Barreau Sébastien",
+							"room": "414"
+						},
+						"starttime": "14:00",
+						"endtime": "16:00",
+						"prettytimes": "14:00-16:00 "
+					},
+					{
+						"attributes": {
+							"id": "221104",
+							"timesort": "16001800",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Bases de la comm.",
+							"staff": "Chenus Marie-Agnès",
+							"room": "314"
+						},
+						"starttime": "16:00",
+						"endtime": "18:00",
+						"prettytimes": "16:00-18:00 "
+					}
+				]
+			},
+			{
+				"id": "2",
+				"name": "mercredi",
+				"date": 14,
+				"event": [
+					{
+						"attributes": {
+							"id": "221102",
+							"timesort": "11001200",
+							"color": "FFBFBF"
+						},
+						"content": {
+							"group": "INF1",
+							"module": "Intro. systèmes",
+							"staff": "Coulon Jean-Paul",
+							"room": "Amphi  A"
+						},
+						"starttime": "11:00",
+						"endtime": "12:00",
+						"prettytimes": "11:00-12:00 "
+					},
+					{
+						"attributes": {
+							"id": "221596",
+							"timesort": "13001500",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Intro. systèmes",
+							"room": "I21"
+						},
+						"starttime": "13:00",
+						"endtime": "15:00",
+						"prettytimes": "13:00-15:00 "
+					},
+					{
+						"attributes": {
+							"id": "221748",
+							"timesort": "15001700",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Initiation au dev.",
+							"room": "I21"
+						},
+						"starttime": "15:00",
+						"endtime": "17:00",
+						"prettytimes": "15:00-17:00 "
+					}
+				]
+			},
+			{
+				"id": "3",
+				"name": "jeudi",
+				"date": 15,
+				"event": [
+					{
+						"attributes": {
+							"id": "221071",
+							"timesort": "08301000",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Maths discrètes",
+							"staff": "Martel Yves",
+							"room": "313"
+						},
+						"starttime": "08:30",
+						"endtime": "10:00",
+						"prettytimes": "08:30-10:00 "
+					},
+					{
+						"attributes": {
+							"id": "221088",
+							"timesort": "10001200",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Economie",
+							"staff": "Barreau Sébastien",
+							"room": "313"
+						},
+						"starttime": "10:00",
+						"endtime": "12:00",
+						"prettytimes": "10:00-12:00 "
+					},
+					{
+						"attributes": {
+							"id": "221072",
+							"timesort": "13001600",
+							"color": "BF7FFF"
+						},
+						"content": {
+							"group": "INF1-C",
+							"room": "313"
+						},
+						"starttime": "13:00",
+						"endtime": "16:00",
+						"prettytimes": "13:00-16:00 "
+					}
+				]
+			},
+			{
+				"id": "4",
+				"name": "vendredi",
+				"date": 16,
+				"event": [
+					{
+						"attributes": {
+							"id": "221073",
+							"timesort": "08301000",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Maths discrètes",
+							"staff": "Martel Yves",
+							"room": "313"
+						},
+						"starttime": "08:30",
+						"endtime": "10:00",
+						"prettytimes": "08:30-10:00 "
+					},
+					{
+						"attributes": {
+							"id": "221118",
+							"timesort": "10001300",
+							"color": "BF7FFF"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Initiation au dev.",
+							"room": "I21"
+						},
+						"starttime": "10:00",
+						"endtime": "13:00",
+						"prettytimes": "10:00-13:00 "
+					},
+					{
+						"attributes": {
+							"id": "222265",
+							"timesort": "14001600",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Dev. interfaces web",
+							"staff": "Robba Isabelle",
+							"room": "I21"
+						},
+						"starttime": "14:00",
+						"endtime": "16:00",
+						"prettytimes": "14:00-16:00 "
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "2",
+		"alleventweeks": "NNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
+		"title": "19/09/2022",
+		"date": "Semaine 38, Semaine commençant le 19/09/2022",
+		"days": [
+			{
+				"id": "0",
+				"name": "lundi",
+				"date": 19,
+				"event": [
+					{
+						"attributes": {
+							"id": "221046",
+							"timesort": "12001300",
+							"color": "FFBFBF"
+						},
+						"content": {
+							"group": "INF1",
+							"module": "Intro. BD",
+							"staff": "Loyer Yann",
+							"room": "Amphi  A"
+						},
+						"starttime": "12:00",
+						"endtime": "13:00",
+						"prettytimes": "12:00-13:00 "
+					},
+					{
+						"attributes": {
+							"id": "221134",
+							"timesort": "14001500",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Intro. BD",
+							"staff": "Loyer Yann",
+							"room": "512"
+						},
+						"starttime": "14:00",
+						"endtime": "15:00",
+						"prettytimes": "14:00-15:00 "
+					},
+					{
+						"attributes": {
+							"id": "221133",
+							"timesort": "15151715",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Intro. BD",
+							"staff": "Loyer Yann",
+							"room": "G25"
+						},
+						"starttime": "15:15",
+						"endtime": "17:15",
+						"prettytimes": "15:15-17:15 "
+					}
+				]
+			},
+			{
+				"id": "1",
+				"name": "mardi",
+				"date": 20,
+				"event": [
+					{
+						"attributes": {
+							"id": "221568",
+							"timesort": "09301030",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Anglais technique",
+							"staff": "Cukalla Eva",
+							"room": "316"
+						},
+						"starttime": "09:30",
+						"endtime": "10:30",
+						"prettytimes": "09:30-10:30 "
+					},
+					{
+						"attributes": {
+							"id": "221083",
+							"timesort": "10301200",
+							"color": "FFBFBF"
+						},
+						"content": {
+							"group": "INF1",
+							"module": "Initiation au dev.",
+							"staff": "Auger David",
+							"room": "Amphi  A"
+						},
+						"starttime": "10:30",
+						"endtime": "12:00",
+						"prettytimes": "10:30-12:00 "
+					},
+					{
+						"attributes": {
+							"id": "221087",
+							"timesort": "14001600",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Economie",
+							"staff": "Barreau Sébastien",
+							"room": "414"
+						},
+						"starttime": "14:00",
+						"endtime": "16:00",
+						"prettytimes": "14:00-16:00 "
+					},
+					{
+						"attributes": {
+							"id": "221104",
+							"timesort": "16001800",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Bases de la comm.",
+							"staff": "Chenus Marie-Agnès",
+							"room": "314"
+						},
+						"starttime": "16:00",
+						"endtime": "18:00",
+						"prettytimes": "16:00-18:00 "
+					}
+				]
+			},
+			{
+				"id": "2",
+				"name": "mercredi",
+				"date": 21,
+				"event": [
+					{
+						"attributes": {
+							"id": "221102",
+							"timesort": "11001200",
+							"color": "FFBFBF"
+						},
+						"content": {
+							"group": "INF1",
+							"module": "Intro. systèmes",
+							"staff": "Coulon Jean-Paul",
+							"room": "Amphi  A"
+						},
+						"starttime": "11:00",
+						"endtime": "12:00",
+						"prettytimes": "11:00-12:00 "
+					},
+					{
+						"attributes": {
+							"id": "221596",
+							"timesort": "13001500",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Intro. systèmes",
+							"room": "I21"
+						},
+						"starttime": "13:00",
+						"endtime": "15:00",
+						"prettytimes": "13:00-15:00 "
+					},
+					{
+						"attributes": {
+							"id": "221747",
+							"timesort": "15001700",
+							"color": "BF7FFF"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Initiation au dev.",
+							"room": "I21"
+						},
+						"starttime": "15:00",
+						"endtime": "17:00",
+						"prettytimes": "15:00-17:00 "
+					}
+				]
+			},
+			{
+				"id": "3",
+				"name": "jeudi",
+				"date": 22,
+				"event": [
+					{
+						"attributes": {
+							"id": "221071",
+							"timesort": "08301000",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Maths discrètes",
+							"staff": "Martel Yves",
+							"room": "313"
+						},
+						"starttime": "08:30",
+						"endtime": "10:00",
+						"prettytimes": "08:30-10:00 "
+					},
+					{
+						"attributes": {
+							"id": "221088",
+							"timesort": "10001200",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Economie",
+							"staff": "Barreau Sébastien",
+							"room": "313"
+						},
+						"starttime": "10:00",
+						"endtime": "12:00",
+						"prettytimes": "10:00-12:00 "
+					},
+					{
+						"attributes": {
+							"id": "221072",
+							"timesort": "13001600",
+							"color": "BF7FFF"
+						},
+						"content": {
+							"group": "INF1-C",
+							"room": "313"
+						},
+						"starttime": "13:00",
+						"endtime": "16:00",
+						"prettytimes": "13:00-16:00 "
+					}
+				]
+			},
+			{
+				"id": "4",
+				"name": "vendredi",
+				"date": 23,
+				"event": [
+					{
+						"attributes": {
+							"id": "221073",
+							"timesort": "08301000",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Maths discrètes",
+							"staff": "Martel Yves",
+							"room": "313"
+						},
+						"starttime": "08:30",
+						"endtime": "10:00",
+						"prettytimes": "08:30-10:00 "
+					},
+					{
+						"attributes": {
+							"id": "221118",
+							"timesort": "10001300",
+							"color": "BF7FFF"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Initiation au dev.",
+							"room": "I21"
+						},
+						"starttime": "10:00",
+						"endtime": "13:00",
+						"prettytimes": "10:00-13:00 "
+					},
+					{
+						"attributes": {
+							"id": "222265",
+							"timesort": "14001600",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Dev. interfaces web",
+							"staff": "Robba Isabelle",
+							"room": "I21"
+						},
+						"starttime": "14:00",
+						"endtime": "16:00",
+						"prettytimes": "14:00-16:00 "
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "3",
+		"alleventweeks": "NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
+		"title": "26/09/2022",
+		"date": "Semaine 39, Semaine commençant le 26/09/2022",
+		"days": [
+			{
+				"id": "0",
+				"name": "lundi",
+				"date": 26,
+				"event": [
+					{
+						"attributes": {
+							"id": "221046",
+							"timesort": "12001300",
+							"color": "FFBFBF"
+						},
+						"content": {
+							"group": "INF1",
+							"module": "Intro. BD",
+							"staff": "Loyer Yann",
+							"room": "Amphi  A"
+						},
+						"starttime": "12:00",
+						"endtime": "13:00",
+						"prettytimes": "12:00-13:00 "
+					},
+					{
+						"attributes": {
+							"id": "221134",
+							"timesort": "14001500",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Intro. BD",
+							"staff": "Loyer Yann",
+							"room": "512"
+						},
+						"starttime": "14:00",
+						"endtime": "15:00",
+						"prettytimes": "14:00-15:00 "
+					},
+					{
+						"attributes": {
+							"id": "221133",
+							"timesort": "15151715",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Intro. BD",
+							"staff": "Loyer Yann",
+							"room": "G25"
+						},
+						"starttime": "15:15",
+						"endtime": "17:15",
+						"prettytimes": "15:15-17:15 "
+					}
+				]
+			},
+			{
+				"id": "1",
+				"name": "mardi",
+				"date": 27,
+				"event": [
+					{
+						"attributes": {
+							"id": "221573",
+							"timesort": "09301030",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Anglais technique",
+							"staff": "Cukalla Eva",
+							"room": "414"
+						},
+						"starttime": "09:30",
+						"endtime": "10:30",
+						"prettytimes": "09:30-10:30 "
+					},
+					{
+						"attributes": {
+							"id": "221083",
+							"timesort": "10301200",
+							"color": "FFBFBF"
+						},
+						"content": {
+							"group": "INF1",
+							"module": "Initiation au dev.",
+							"staff": "Auger David",
+							"room": "Amphi  A"
+						},
+						"starttime": "10:30",
+						"endtime": "12:00",
+						"prettytimes": "10:30-12:00 "
+					},
+					{
+						"attributes": {
+							"id": "221087",
+							"timesort": "14001600",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Economie",
+							"staff": "Barreau Sébastien",
+							"room": "414"
+						},
+						"starttime": "14:00",
+						"endtime": "16:00",
+						"prettytimes": "14:00-16:00 "
+					},
+					{
+						"attributes": {
+							"id": "221104",
+							"timesort": "16001800",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Bases de la comm.",
+							"staff": "Chenus Marie-Agnès",
+							"room": "314"
+						},
+						"starttime": "16:00",
+						"endtime": "18:00",
+						"prettytimes": "16:00-18:00 "
+					}
+				]
+			},
+			{
+				"id": "2",
+				"name": "mercredi",
+				"date": 28,
+				"event": [
+					{
+						"attributes": {
+							"id": "221102",
+							"timesort": "11001200",
+							"color": "FFBFBF"
+						},
+						"content": {
+							"group": "INF1",
+							"module": "Intro. systèmes",
+							"staff": "Coulon Jean-Paul",
+							"room": "Amphi  A"
+						},
+						"starttime": "11:00",
+						"endtime": "12:00",
+						"prettytimes": "11:00-12:00 "
+					},
+					{
+						"attributes": {
+							"id": "221596",
+							"timesort": "13001500",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Intro. systèmes",
+							"room": "I21"
+						},
+						"starttime": "13:00",
+						"endtime": "15:00",
+						"prettytimes": "13:00-15:00 "
+					},
+					{
+						"attributes": {
+							"id": "221748",
+							"timesort": "15001700",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Initiation au dev.",
+							"room": "I21"
+						},
+						"starttime": "15:00",
+						"endtime": "17:00",
+						"prettytimes": "15:00-17:00 "
+					}
+				]
+			},
+			{
+				"id": "3",
+				"name": "jeudi",
+				"date": 29,
+				"event": [
+					{
+						"attributes": {
+							"id": "221071",
+							"timesort": "08301000",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Maths discrètes",
+							"staff": "Martel Yves",
+							"room": "313"
+						},
+						"starttime": "08:30",
+						"endtime": "10:00",
+						"prettytimes": "08:30-10:00 "
+					},
+					{
+						"attributes": {
+							"id": "221088",
+							"timesort": "10001200",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Economie",
+							"staff": "Barreau Sébastien",
+							"room": "313"
+						},
+						"starttime": "10:00",
+						"endtime": "12:00",
+						"prettytimes": "10:00-12:00 "
+					},
+					{
+						"attributes": {
+							"id": "221072",
+							"timesort": "13001600",
+							"color": "BF7FFF"
+						},
+						"content": {
+							"group": "INF1-C",
+							"room": "313"
+						},
+						"starttime": "13:00",
+						"endtime": "16:00",
+						"prettytimes": "13:00-16:00 "
+					}
+				]
+			},
+			{
+				"id": "4",
+				"name": "vendredi",
+				"date": 30,
+				"event": [
+					{
+						"attributes": {
+							"id": "221073",
+							"timesort": "08301000",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Maths discrètes",
+							"staff": "Martel Yves",
+							"room": "313"
+						},
+						"starttime": "08:30",
+						"endtime": "10:00",
+						"prettytimes": "08:30-10:00 "
+					},
+					{
+						"attributes": {
+							"id": "221118",
+							"timesort": "10001300",
+							"color": "BF7FFF"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Initiation au dev.",
+							"room": "I21"
+						},
+						"starttime": "10:00",
+						"endtime": "13:00",
+						"prettytimes": "10:00-13:00 "
+					},
+					{
+						"attributes": {
+							"id": "222265",
+							"timesort": "14001600",
+							"color": "7FFF7F"
+						},
+						"content": {
+							"group": "INF1-C",
+							"module": "Dev. interfaces web",
+							"staff": "Robba Isabelle",
+							"room": "I21"
+						},
+						"starttime": "14:00",
+						"endtime": "16:00",
+						"prettytimes": "14:00-16:00 "
+					}
+				]
+			}
+		]
+	}
+]
