@@ -1,4 +1,3 @@
-var cron = require('node-cron');
 var express = require('express');
 var app = express();
 const axios = require("axios");
