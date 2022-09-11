@@ -2,6 +2,7 @@ var cron = require('node-cron');
 var express = require('express');
 var app = express();
 const axios = require("axios");
+const cheerio = require("cheerio");
 var convert = require('xml-js');
 fs = require('fs');
 const ics = require('ics')
@@ -114,9 +115,7 @@ async function scrapeData() {
     console.error(err);
   }
 }
-cron.schedule('0 0 */1 * * *', () => {
-    console.log('running a task evry hour')
-})
+setInterval(scrapeData, 60*1000);
 // Invoke the above function
 scrapeData();
 
