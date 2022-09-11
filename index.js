@@ -1,3 +1,4 @@
+var cron = require('node-cron');
 var express = require('express');
 var app = express();
 const axios = require("axios");
@@ -114,11 +115,15 @@ async function scrapeData() {
     console.error(err);
   }
 }
+cron.schedule('0 0 */1 * * *', () => {
+    console.log('running a task evry hour')
+})
 // Invoke the above function
 scrapeData();
 
+
+
 app.get('/edt.ics', function (req, res) {
-    res.status(200);
     res.sendFile(__dirname + '/public/edt.ics');
 });
 
