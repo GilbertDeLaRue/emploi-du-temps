@@ -114,7 +114,7 @@ async function scrapeData() {
     console.error(err);
   }
 }
-setInterval(scrapeData, 60*1000);
+setInterval(scrapeData, 60*60*1000);
 // Invoke the above function
 scrapeData();
 
