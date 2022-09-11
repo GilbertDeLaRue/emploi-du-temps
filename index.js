@@ -106,7 +106,7 @@ async function scrapeData() {
       return
     }
     
-    fs.writeFile('edt.ics', value, function (err) {
+    fs.writeFile(__dirname + '/public/edt.ics', value, function (err) {
       if (err) return console.log(err);
       console.log('saved !');
     });
@@ -118,6 +118,7 @@ async function scrapeData() {
 scrapeData();
 
 app.get('/edt.ics', function (req, res) {
+    res.status(200);
     res.sendFile(__dirname + '/public/edt.ics');
 });
 
