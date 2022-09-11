@@ -1,3 +1,4 @@
+var cron = require('node-cron');
 var express = require('express');
 var app = express();
 const axios = require("axios");
@@ -16,6 +17,8 @@ async function scrapeData() {
     //console.log($.html())
     let result = convert.xml2json(data, {compact: true, spaces: 4});
     let obj = JSON.parse(result)
+
+
     let weeks = obj.timetable.span
     let agenda = []
     weeks.forEach(week => {
@@ -51,6 +54,25 @@ async function scrapeData() {
                 days = weeks.days
                 days.forEach(day => {
                     if(event.day._text == day.id){
+                        let modules = []
+                        let staffs = []
+                        try {
+                            let module = event.resources.module.item
+                            module.forEach(e => {
+                                let element = e._text
+                                modules.push(element)
+                            });
+                            let staff = event.resources.staff.item
+                            staff.forEach(e => {
+                                let element = e._text
+                                staffs.push(element)
+                            });
+                        } catch {
+                            modules.push(event.resources.module.item._text)
+                            staffs.push(event.resources.staff.item._text)
+                        }
+
+
                         day.event.push({
                             attributes: {
                                 id: event._attributes.id,
@@ -59,8 +81,8 @@ async function scrapeData() {
                             },
                             content: {
                                 group: event.resources.group.item._text,
-                                module: event.resources.module.item._text,
-                                staff: event.resources.staff.item._text,
+                                module: modules,
+                                staff: staffs,
                                 room: event.resources.room.item._text
                             },
                             starttime: event.starttime._text,
@@ -85,13 +107,23 @@ async function scrapeData() {
 
                 let endHour =  parseInt(event.endtime.substring(0,2))
                 let endMinute = parseInt(event.endtime.substring(3,5))
+                let module = event.content.module
+                let modules = ''
+                module.forEach(e => {
+                    modules += ' '+e
+                });
+                let staff = event.content.staff
+                let staffs = ''
+                staff.forEach(e => {
+                    staffs += ' '+e
+                });
                 ical.push({
                     start: [date.getFullYear(), date.getMonth()+1, date.getDate(), startHour, startMinute],
                     end: [date.getFullYear(), date.getMonth()+1, date.getDate(), endHour, endMinute],
-                    title: event.content.module,
-                    description: event.content.staff,
+                    title: modules,
+                    description: staffs,
                     location: event.content.room,
-                    organizer: {name: event.content.staff}
+                    organizer: {name: staffs}
                 })
 
                 //console.log(event)
@@ -100,7 +132,6 @@ async function scrapeData() {
 
     });
     const { error, value } = ics.createEvents(ical)
-          
     if (error) {
       console.log(error)
       return
